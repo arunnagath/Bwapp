@@ -1,0 +1,32 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=f35caac1
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 4192256 SPARSE "bee-box-s001.vmdk"
+RW 4192256 SPARSE "bee-box-s002.vmdk"
+RW 4192256 SPARSE "bee-box-s003.vmdk"
+RW 4192256 SPARSE "bee-box-s004.vmdk"
+RW 4192256 SPARSE "bee-box-s005.vmdk"
+RW 4192256 SPARSE "bee-box-s006.vmdk"
+RW 4192256 SPARSE "bee-box-s007.vmdk"
+RW 4192256 SPARSE "bee-box-s008.vmdk"
+RW 4192256 SPARSE "bee-box-s009.vmdk"
+RW 4192256 SPARSE "bee-box-s010.vmdk"
+RW 20480 SPARSE "bee-box-s011.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "25cd30636f65fb14ed64a38ef35caac1"
+ddb.toolsInstallType = "2"
+ddb.toolsVersion = "8453"
+ddb.uuid = "60 00 C2 91 63 ab f5 c5-a0 28 4b a8 45 0b 8d 34"
+ddb.virtualHWVersion = "8"
